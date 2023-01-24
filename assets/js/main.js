@@ -41,6 +41,3 @@ function AutoPlay() {
    img.src=mySlider[index];
 }
 
-setInterval(() => {
-    AutoPlay();
-}, 4000);
