@@ -1,3 +1,4 @@
+/*# sourceMappingURL=contact.css.map */
 * {
     margin: 0;
     padding: 0;
@@ -15,18 +16,18 @@
     margin: 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    padding: 0px 17px ;
-   
-
+    padding: 0px 17px ; 
   }
-  header .container img {
+
+ .container img {
  height: 40px;
-}
+  }
+
   span {
     color: white;
   }
   
-  header .container {
+.container {
     z-index: 1;
     padding: 0.5rem 5rem;
     position: fixed;
@@ -36,13 +37,10 @@
     max-width: 100%;
     justify-content: space-between;
 }
-header .container .second {
+
+.container .second {
   padding-top: 10px;
   padding-left: 16rem;
-}
-
-header {
-  overflow: hidden;
 }
 
 .main{
