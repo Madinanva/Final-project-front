@@ -140,6 +140,7 @@ span {
 .form h4 {
   font: 30px "Frank Ruhl Libre", serif;
   font-weight: bold;
+  padding-top: 3rem;
 }
 
 .form input {
