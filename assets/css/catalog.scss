@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 17px ;
+  }
+ 
+  .container img {
+ height: 40px;
+  }
+
+  span {
+    color: white;
+  }
+  
+  .container {
+    z-index: 1;
+    padding: 0.5rem 5rem;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.container .second {
+  padding-top: 10px;
+  padding-left: 16rem;
+}
+
+.container .nav a{
+    padding-top: 10px;
+}
+
+.container .nav a:hover{
+    color: #b57655;
+    transition: 1s;
+}
+
+.main{
+    background: url(../images/img23.jpg) center top no-repeat fixed;
+    padding: 110px 0 80px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0 0 80px;
+}
+
+.main::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000000;
+    opacity: .6;
+}
+
+.main h1{
+    color: white;
+    position: relative;
+    z-index: 2;
+    font: 36px "Frank Ruhl Libre", serif;
+}
+
+.list{
+    display: flex;
+}
+
+.list .box{
+    width: 20%;
+    float: left;
+    margin: 0 2% 50px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  
+  .list .box .top img{
+    width: 100%;
+  }
+  
+  .list .box .bottom a{
+    color:  #795c4d;
+    font: 21px "Frank Ruhl Libre", serif;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .list .box .bottom a:hover{
+    color: #1a1a1a;
+  }
+
+  .list .box .btn{
+    width: 100px;
+    padding: 0;
+  }
+
+
+  #shopbtn a{
+    padding: 0;
+  }
+
+  #shopbtn a button{
+    color: white;
+    background-color: #1a1a1a;
+    font: 17px "Frank Ruhl Libre", serif;
+    height: 50px;
+    width: 100%;
+    border: none;
+  }
+
+  #shopbtn a button:hover{
+    background-color: #b57655;
+    transition: 1s;
+  }
+
+.subscribe{
+    padding-top: 8rem;
+    padding-left: 3rem;
+    display: flex;
+  }
+  
+  #signup h2{
+    color: #1a1a1a;
+    font: 34px "Frank Ruhl Libre", serif;
+  }
+  
+  #signup h2 a{
+    color: #795c4d;
+    font: 34px "Frank Ruhl Libre", serif;
+    font-style: italic;
+  }
+  
+  #signup h2 a:hover{
+    color: #1a1a1a;
+    transition: 0.5s;
+  }
+  
+  #social a i{
+    color: #b57655;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+  }
+  
+  #flogo img{
+    width: 50%;
+  }
+  
+  #signup{
+    width: 30%;
+    padding-left: 6rem;
+    text-align: center;
+  }
+  
+  #signup input{
+    height: 40px;
+    display: block;
+    margin: 0;
+    width: 95%;
+    border: 1px solid #e0e0e0;
+    padding-left: 15px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  #social{
+   width: 40%;
+   padding-left: 12rem;
+  }
+  
+  #signup button{
+    color: #ffff;
+    background-color: #1a1a1a;
+    margin-right: auto;
+    height: 40px;
+    width: 95%;
+    margin-left: 1rem;
+    font: 15px "Frank Ruhl Libre", serif;
+    padding-top: 5px;
+    border: none;
+  }
+  
+  #signup button:hover{
+    background-color: #795c4d;
+    transition: 0.5s;
+  }
+  
+  .footer{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 5rem;
+  }
+  
+  #help h5{
+    color: #1a1a1a;
+    font: 22px "Frank Ruhl Libre", serif;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #help a{
+    color: #1a1a1a;
+    font: 17px Poppins, sans-serif;
+    display: block;
+    padding-bottom: 8px;
+  }
+  
+  
+  #help a:hover{
+    color: #795c4d;
+    transition: 0.5s;
+  }
+  
+  #information{
+    padding-left: 8rem;
+  }
+  
+  #information h5{
+    color: #1a1a1a;
+    font: 22px "Frank Ruhl Libre", serif;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #information a{
+    color: #1a1a1a;
+    font: 17px Poppins, sans-serif;
+    display: block;
+    padding-bottom: 8px;
+  }
+  
+  #information a:hover{
+    color: #795c4d;
+    transition: 0.5s;
+  }
+  
+  #contact h5{
+    color: #1a1a1a;
+    font: 22px "Frank Ruhl Libre", serif;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #contact{
+    padding-left: 9rem;
+  }
+  
+  #contact h6{
+    color: #1a1a1a;
+    padding-left: 1rem;
+  }
+  
+  #contact p{
+    color: #1a1a1a;
+    padding-left: 1rem;
+    width: 60%;
+  }
+  
+  #footerlogo img{
+    width: 60%;
+  }
+  
+  .end{
+   text-align: center;
+   padding-top: 5rem;
+  }
+  
+  .end p{
+   color: #1a1a1a;
+   font: 16px Poppins, sans-serif;
+  }
+  
+  .end p a{
+    color: #1a1a1a;
+    font: 16px Poppins, sans-serif;
+  }
+  
+  .end p a:hover{
+    color: #795c4d;
+    transition: 0.5s;
+  }

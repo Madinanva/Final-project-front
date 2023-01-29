@@ -23,7 +23,8 @@ a {
 }
 
 span {
-  color: white;
+  color: rgb(209, 205, 205);
+  padding-top: 1rem;
 }
 
 .container {
@@ -83,7 +84,7 @@ span {
 
 .main h5 {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   z-index: 2;
   padding-top: 10px;
@@ -94,216 +95,80 @@ span {
   transition: 1s;
 }
 
-#mlogo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1.5rem;
-}
-
-#texts h4 {
-  font: 40px "Frank Ruhl Libre", serif;
-  margin-left: 30rem;
-}
-
-#texts p {
+.login {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  background-color: #f7f7f7;
+  border-radius: 0px;
   text-align: center;
-  font: 17px Poppins, sans-serif;
+}
+
+.login input {
+  width: 100%;
+  height: 50px;
+  margin-top: 2rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  padding-left: 20px;
+}
+
+.login input:focus {
+  outline: none;
+  border: 1px solid #b57655;
+}
+
+.login h4 {
+  font: 22px "Frank Ruhl Libre", serif;
+  color: #1a1a1a;
+  text-align: left;
+}
+
+.login p {
+  font: 18px "Frank Ruhl Libre", serif;
+  color: #1a1a1a;
+  text-align: left;
   padding-top: 10px;
 }
 
-#imag {
-  display: flex;
-}
-
-#imag img {
-  padding-top: 2rem;
-  width: 50%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-#pottery {
-  margin-top: 6rem;
+#btn {
   color: white;
-  width: 100%;
-  display: block;
-  background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_17.png?v=1636551519);
-}
-
-#pottery h4 {
-  font: 40px "Frank Ruhl Libre", serif;
-  padding-top: 5rem;
-  padding-left: 2rem;
-}
-
-#pottery p {
-  color: #9A9A9A;
-  font: 18px Poppins, sans-serif;
-  padding-top: 25px;
-  padding-left: 2rem;
-}
-
-#pottery i {
-  color: #cf7e56;
-  display: block;
+  font: 17px "Frank Ruhl Libre", serif;
   padding-top: 20px;
-  padding-left: 2rem;
-}
-
-#pottery a {
-  font: 18px Poppins, sans-serif;
-  color: #9A9A9A;
-}
-
-.images {
-  display: flex;
-  padding-bottom: 6rem;
-}
-
-#image1 img {
+  margin-top: 5px;
+  text-align: left;
   width: 100%;
-  padding-left: 2rem;
-  margin-right: 1rem;
-  padding-top: 5rem;
 }
 
-#image2 img {
-  display: block;
-  width: 93%;
-  padding-left: 2rem;
-  padding-top: 5rem;
-  margin-right: 2rem;
-}
-
-#read a {
+#btn button {
+  width: 20%;
+  padding: 15px;
+  background-color: black;
   color: white;
-  font: 20px "Frank Ruhl Libre", serif;
-  text-decoration: underline;
-  padding-left: 2rem;
+  border: none;
+  transition: 0.3s;
 }
 
-#read {
-  padding-top: 2rem;
+#btn button:hover {
+  background-color: #b57655;
 }
 
-#pottery a:hover {
-  color: #b57655;
-  transition: 1s;
-}
-
-#badge {
-  position: absolute;
-  padding-left: 35rem;
-  padding-top: 29rem;
-}
-
-#badge img {
-  width: 70%;
-}
-
-.meet {
+.sections {
   display: flex;
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
-#first img {
-  width: 80%;
-}
-
-#second img {
-  width: 80%;
-}
-
-#third img {
-  width: 80%;
-}
-
-#fourth img {
-  width: 80%;
-}
-
-#first h3 {
+#btn a {
   color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
+  font: 19px "Frank Ruhl Libre", serif;
+  padding-left: 21rem;
 }
 
-#first h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#second h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#second h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#second {
-  padding-top: 4rem;
-}
-
-#third h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#third h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#fourth h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#fourth h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#fourth {
-  padding-top: 4rem;
-  padding-right: 2rem;
-}
-
-.btm {
-  padding-top: 2rem;
-}
-
-.btm a {
-  color: #795c4d;
-  font: 22px "Frank Ruhl Libre", serif;
-  text-decoration: underline;
-  text-align: center;
-  display: block;
-}
-
-.btm a:hover {
+#btn a:hover {
   color: #1a1a1a;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .subscribe {
@@ -477,4 +342,4 @@ span {
 .end p a:hover {
   color: #795c4d;
   transition: 0.5s;
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=forgot.css.map */

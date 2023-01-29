@@ -108,12 +108,13 @@ span {
 }
 
 #plogo img {
-  margin-left: 38rem;
+  display: block;
+  margin: 0 auto;
 }
 
 #texts h4 {
   font: 40px "Frank Ruhl Libre", serif;
-  margin-left: 30rem;
+  text-align: center;
 }
 
 #texts p {
@@ -130,15 +131,15 @@ span {
 
 .list .box .top {
   position: relative;
-  }
+}
 
-.list .box .top i{
- color: #1a1a1a;
- top: 15%;
- left: 85%;
- position: absolute;
- font-size: 14px;
- opacity: 0;
+.list .box .top i {
+  color: #1a1a1a;
+  top: 15%;
+  left: 85%;
+  position: absolute;
+  font-size: 14px;
+  opacity: 0;
 }
 
 .list .box .top img {
@@ -146,9 +147,9 @@ span {
   display: block;
 }
 
-.list .box .top:hover i{
- opacity: 1;
- color: #795c4d;
+.list .box .top:hover i {
+  opacity: 1;
+  color: #795c4d;
 }
 
 .list .box .bottom a {
@@ -278,7 +279,7 @@ span {
   color: white;
   font: 22px "Frank Ruhl Libre", serif;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 #discover a:hover {
