@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clarie-theme</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/blog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6">
+                    <img src="assets/images/logo.jpg" alt="logo">
+                </div>
+            </div>
+                <div class="nav ">
+                    <a href=""><i class="fa-solid fa-bars"></i> Menu</a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="account.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="cart.html"><i class="fa-solid fa-box-archive"></i></a>
+                 </div>
+                </div>
+                <div class="main">
+                    <h1>NEWS</h1>
+                   <h5><a href="index.html">Home</a>/ News</h5>
+                 </div>
+                 <div class="blog">
+                    <div id="first">
+                        <img src="assets/images/img16.jpg" alt="">
+                        <p>By Ram M / November 23, 2021 / 1 Comment</p>
+                        <h3><a href="">Holding pottery of earth with feel and modern new style</a></h3>
+                        <h6>Enieses cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat...</h6>
+                        <a href="">Read more</a>
+                        <img src="assets/images/img37.jpg" alt="">
+                        <p>By Ram M / November 23, 2021 / 1 Comment</p>
+                        <h3><a href="">Proud of making colorful handmade pottery look</a></h3>
+                        <h6>Lorem cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa...</h6>
+                        <a href="">Read more</a>
+                    </div>
+                    <div id="second">
+                        <img src="assets/images/img17.jpg" alt="">
+                        <p>By Ram M / November 23, 2021 / 1 Comment</p>
+                        <h3><a href="">Taking hold of handmade modern clay pottery</a></h3>
+                        <h6>Orese cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa...</h6>
+                        <a href="">Read more</a>
+                        <img src="assets/images/img48.jpg" alt="" height="290px">
+                        <p>By Ram M / November 23, 2021 / 1 Comment</p>
+                        <h3><a href="">Own a piece of an artist with new trending pottery</a></h3>
+                        <h6>Cames cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat...</h6>
+                        <a href="">Read more</a>
+                    </div>
+                    <div id="third">
+                        <h5>Recent Articles</h5>
+                        <span>____________________________________</span>
+                        <div class="articles">
+                            <div id="image">
+                            <img src="assets/images/img16.jpg" alt="">
+                            <img src="assets/images/img17.jpg" alt="">
+                            </div>
+                            <div id="title">
+                            <a href="">Holding pottery of earth with feel and new style</a>
+                            <a href="">Taking hold of handmade modern clay pottery</a>
+                            </div>
+                        </div>
+                        <h5>Tags</h5>
+                        <span>____________________________________</span>
+                        <a href="">Ceramic</a>
+                        <a href="">Pottery</a>
+                        <h5>New Arrivals</h5>
+                        <span>____________________________________</span>
+                        <div class="arrivals">
+                            <div id="ceramics">
+                            <img src="assets/images/img24.jpg" alt="">
+                            <img src="assets/images/img26.jpg" alt="">
+                            </div>
+                            <div id="price">
+                                <a href="">Jug ceramics</a>
+                                <p>Rs. 150.00</p>
+                                <a href="">Clay disc</a>
+                                <p>Rs. 150.00</p>
+                            </div>
+                        </div>
+                        <div id="shop">
+                            <img src="assets/images/img32.jpg" alt="">
+                            <a href="products.html"><button>Shop Now</button></a>
+                        </div>
+                    </div>
+                 </div>
+                 <div ng-app='app' ng-controller='MainCtrl'>
+                    <pagination current-page='1' num-pages='3' on-select-page='getCurrentPage(page)'></pagination>
+                  </div>
+                 <script src="assets/js/blog.js"></script>
+                </body>
+                </html>
