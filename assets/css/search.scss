@@ -17,16 +17,17 @@
     font-family: 'Open Sans', sans-serif;
     padding: 0px 17px ;
   }
- 
-  .container img {
+
+.container img {
  height: 40px;
   }
 
   span {
-    color: white;
+    color: rgb(209, 205, 205);
+    padding-top: 1rem;
   }
   
-  .container {
+ .container {
     z-index: 1;
     padding: 0.5rem 5rem;
     position: fixed;
@@ -36,8 +37,7 @@
     max-width: 100%;
     justify-content: space-between;
 }
-
-.container .second {
+ .container .second {
   padding-top: 10px;
   padding-left: 16rem;
 }
@@ -46,7 +46,7 @@
     padding-top: 10px;
 }
 
-.container .nav a:hover{
+.container .nav a i:hover{
     color: #b57655;
     transition: 1s;
 }
@@ -59,6 +59,7 @@
     text-align: center;
     position: relative;
     margin: 0 0 80px;
+    
 }
 
 .main::before{
@@ -80,80 +81,79 @@
     font: 36px "Frank Ruhl Libre", serif;
 }
 
-.list{
-    display: flex;
+.main h5 {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    padding-top: 10px;
 }
 
-.list .box{
-    width: 20%;
-    float: left;
-    margin: 0 2% 50px;
-    padding-left: 20px;
+.main h5 a:hover{
+    color: #b57655;
+    transition: 1s;
+}
+
+
+.search{
     text-align: center;
-  }
-  
-  .list .box .top img{
-    width: 100%;
-  }
-  
-  .list .box .bottom a{
-    color:  #795c4d;
-    font: 21px "Frank Ruhl Libre", serif;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
-  .list .box .bottom a:hover{
-    color: #1a1a1a;
-  }
+}
 
-  .list .box .btn{
-    width: 100px;
-    padding: 0;
-  }
+.search h1{
+    font: 40px "Frank Ruhl Libre", serif;
+}
 
-
-  #shopbtn a{
-    padding: 0;
-  }
-
-  #shopbtn a button{
+  .input i{
     color: white;
     background-color: #1a1a1a;
-    font: 17px "Frank Ruhl Libre", serif;
-    height: 50px;
-    width: 100%;
-    border: none;
+    padding: 12px;
+    width: 40px;
+    border-radius: var
   }
 
-  #shopbtn a button:hover{
+  .input i:hover{
     background-color: #b57655;
     transition: 1s;
   }
+  
+  .py-3 {
+    width: 30%;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
 
-.subscribe{
-    padding-top: 8rem;
-    padding-left: 2rem;
+  .ps-2{
+    padding-right: 6rem;
+  }
+
+ :focus {
+    outline: none;
+    border: none;
+  }
+
+  .subscribe {
+    padding-top: 10rem;
+    padding-left: 3rem;
     display: flex;
   }
   
-  #signup h2{
+  #signup h2 {
     color: #1a1a1a;
     font: 34px "Frank Ruhl Libre", serif;
   }
   
-  #signup h2 a{
+  #signup h2 a {
     color: #795c4d;
     font: 34px "Frank Ruhl Libre", serif;
     font-style: italic;
   }
   
-  #signup h2 a:hover{
+  #signup h2 a:hover {
     color: #1a1a1a;
     transition: 0.5s;
   }
   
-  #social a i{
+  #social a i {
     color: #b57655;
     width: 30px;
     height: 30px;
@@ -163,17 +163,17 @@
     padding-top: 6px;
   }
   
-  #flogo img{
+  #flogo img {
     width: 50%;
   }
   
-  #signup{
+  #signup {
     width: 30%;
     padding-left: 6rem;
     text-align: center;
   }
   
-  #signup input{
+  #signup input {
     height: 40px;
     display: block;
     margin: 0;
@@ -185,13 +185,13 @@
     margin-bottom: 10px;
   }
   
-  #social{
-   width: 40%;
-   padding-left: 12rem;
+  #social {
+    width: 40%;
+    padding-left: 12rem;
   }
   
-  #signup button{
-    color: #ffff;
+  #signup button {
+    color: white;
     background-color: #1a1a1a;
     margin-right: auto;
     height: 40px;
@@ -202,18 +202,18 @@
     border: none;
   }
   
-  #signup button:hover{
+  #signup button:hover {
     background-color: #795c4d;
     transition: 0.5s;
   }
   
-  .footer{
+  .footer {
     display: flex;
     padding-left: 1rem;
     padding-top: 5rem;
   }
   
-  #help h5{
+  #help h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
@@ -221,24 +221,23 @@
     padding-bottom: 1rem;
   }
   
-  #help a{
+  #help a {
     color: #1a1a1a;
     font: 17px Poppins, sans-serif;
     display: block;
     padding-bottom: 8px;
   }
   
-  
-  #help a:hover{
+  #help a:hover {
     color: #795c4d;
     transition: 0.5s;
   }
   
-  #information{
+  #information {
     padding-left: 8rem;
   }
   
-  #information h5{
+  #information h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
@@ -246,19 +245,19 @@
     padding-bottom: 1rem;
   }
   
-  #information a{
+  #information a {
     color: #1a1a1a;
     font: 17px Poppins, sans-serif;
     display: block;
     padding-bottom: 8px;
   }
   
-  #information a:hover{
+  #information a:hover {
     color: #795c4d;
     transition: 0.5s;
   }
   
-  #contact h5{
+  #contact h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
@@ -266,41 +265,41 @@
     padding-bottom: 1rem;
   }
   
-  #contact{
+  #contact {
     padding-left: 9rem;
   }
   
-  #contact h6{
+  #contact h6 {
     color: #1a1a1a;
     padding-left: 1rem;
   }
   
-  #contact p{
+  #contact p {
     color: #1a1a1a;
     padding-left: 1rem;
     width: 60%;
   }
   
-  #footerlogo img{
+  #footerlogo img {
     width: 60%;
   }
   
-  .end{
-   text-align: center;
-   padding-top: 5rem;
+  .end {
+    text-align: center;
+    padding-top: 5rem;
   }
   
-  .end p{
-   color: #1a1a1a;
-   font: 16px Poppins, sans-serif;
-  }
-  
-  .end p a{
+  .end p {
     color: #1a1a1a;
     font: 16px Poppins, sans-serif;
   }
   
-  .end p a:hover{
+  .end p a {
+    color: #1a1a1a;
+    font: 16px Poppins, sans-serif;
+  }
+  
+  .end p a:hover {
     color: #795c4d;
     transition: 0.5s;
   }

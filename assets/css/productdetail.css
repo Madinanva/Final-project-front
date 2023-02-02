@@ -23,7 +23,8 @@ a {
 }
 
 span {
-  color: white;
+  color: rgb(209, 205, 205);
+  padding-top: 1rem;
 }
 
 .container {
@@ -82,7 +83,7 @@ span {
 
 .main h5 {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   z-index: 2;
   padding-top: 10px;
@@ -93,221 +94,170 @@ span {
   transition: 1s;
 }
 
-#mlogo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1.5rem;
-}
-
-#texts h4 {
-  font: 40px "Frank Ruhl Libre", serif;
-  margin-left: 30rem;
-}
-
-#texts p {
-  text-align: center;
-  font: 17px Poppins, sans-serif;
-  padding-top: 10px;
-}
-
-#imag {
+.ceramics {
   display: flex;
-}
-
-#imag img {
-  padding-top: 2rem;
-  width: 50%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-#pottery {
-  margin-top: 6rem;
-  color: white;
-  width: 100%;
-  display: block;
-  background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_17.png?v=1636551519);
-}
-
-#pottery h4 {
-  font: 40px "Frank Ruhl Libre", serif;
-  padding-top: 5rem;
-  padding-left: 2rem;
-}
-
-#pottery p {
-  color: #9A9A9A;
-  font: 18px Poppins, sans-serif;
-  padding-top: 25px;
-  padding-left: 2rem;
-}
-
-#pottery i {
-  color: #cf7e56;
-  display: block;
-  padding-top: 20px;
-  padding-left: 2rem;
-}
-
-#pottery a {
-  font: 18px Poppins, sans-serif;
-  color: #9A9A9A;
-}
-
-.images {
-  display: flex;
-  padding-bottom: 6rem;
-}
-
-#image1 img {
-  width: 100%;
-  padding-left: 2rem;
-  margin-right: 1rem;
-  padding-top: 5rem;
-}
-
-#image2 img {
-  display: block;
-  width: 93%;
-  padding-left: 2rem;
-  padding-top: 5rem;
-  margin-right: 2rem;
-}
-
-#read a {
-  color: white;
-  font: 20px "Frank Ruhl Libre", serif;
-  text-decoration: underline;
-  padding-left: 2rem;
-}
-
-#read {
-  padding-top: 2rem;
-}
-
-#pottery a:hover {
-  color: #b57655;
-  transition: 1s;
-}
-
-#badge {
-  position: absolute;
-  padding-left: 35rem;
-  padding-top: 29rem;
-}
-
-#badge img {
   width: 70%;
 }
 
-.meet {
+.ceramics img {
+  width: 90%;
+  padding-left: 6rem;
+}
+
+.detail {
+  width: 30%;
+}
+
+.details {
   display: flex;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  width: 120%;
 }
 
-#first img {
-  width: 80%;
+.detail h2 {
+  font: 44px "Frank Ruhl Libre", serif;
+  padding-bottom: 1rem;
 }
 
-#second img {
-  width: 80%;
+#left {
+  padding-top: 5px;
 }
 
-#third img {
-  width: 80%;
+#left p {
+  font: 19px "Frank Ruhl Libre", serif;
+  padding-bottom: 1rem;
 }
 
-#fourth img {
-  width: 80%;
+#shopbtn a {
+  padding: 0;
 }
 
-#first h3 {
+#shopbtn a button {
+  color: white;
+  background-color: #1a1a1a;
+  font: 17px "Frank Ruhl Libre", serif;
+  height: 50px;
+  width: 150%;
+  border: none;
+  margin-left: -1rem;
+}
+
+#shopbtn a button:hover {
+  background-color: #b57655;
+  transition: 1s;
+}
+
+.price {
+  padding-left: 3px;
+  display: flex;
+  font-weight: bold;
+}
+
+#oldprice {
+  color: #aaa;
+  font: 14px Poppins, sans-serif;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#right {
+  padding-left: 1.5rem;
+}
+
+#right label {
+  margin-top: 2rem;
+  border: 1px solid;
+  width: 40%;
+  height: 30px;
+  padding-left: 13px;
+}
+
+#lbl label {
+  margin-top: 1.5rem;
+  border: 1px solid;
+  width: 60%;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 1.5rem;
+}
+
+#right a {
   color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
+  font: 17px Poppins, sans-serif;
+  margin-left: -1rem;
 }
 
-#first h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#second h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#second h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#second {
-  padding-top: 4rem;
-}
-
-#third h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#third h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#fourth h3 {
-  color: #795c4d;
-  font: 20px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 2rem;
-}
-
-#fourth h6 {
-  color: #6a6a6a;
-  font: 16px "Frank Ruhl Libre", serif;
-  padding-left: 2rem;
-  padding-top: 0.5rem;
-}
-
-#fourth {
-  padding-top: 4rem;
-  padding-right: 2rem;
-}
-
-.btm {
-  padding-top: 2rem;
-}
-
-.btm a {
-  color: #795c4d;
-  font: 22px "Frank Ruhl Libre", serif;
-  text-decoration: underline;
-  text-align: center;
-  display: block;
-}
-
-.btm a:hover {
+#right a:hover {
   color: #1a1a1a;
+  transition: 1s;
+}
+
+#right p {
+  color: #1a1a1a;
+  font: 17px Poppins, sans-serif;
+  padding-top: 2rem;
+  width: 130%;
+}
+
+#stock p {
+  color: #4f8a10;
+  font: 17px Poppins, sans-serif;
+  padding-top: 1rem;
+}
+
+span {
+  cursor: pointer;
+}
+
+.number {
+  margin-top: 1.7rem;
+  width: 100%;
+  display: flex;
+}
+
+.minus, .plus {
+  color: white;
+  width: 30px;
+  height: 20px;
+  background: #1a1a1a;
+  padding: 10px 10px 23px 9px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+input {
+  height: 34px;
+  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#shopbtn2 a {
+  padding: 0;
+}
+
+#shopbtn2 a button {
+  color: white;
+  background-color: #1a1a1a;
+  font: 17px "Frank Ruhl Libre", serif;
+  height: 50px;
+  width: 180%;
+  border: none;
+  margin-top: 1.625rem;
+}
+
+#shopbtn2 a button:hover {
+  background-color: #b57655;
   transition: 1s;
 }
 
 .subscribe {
   padding-top: 8rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
   display: flex;
 }
 
@@ -353,7 +303,6 @@ span {
   margin: 0;
   width: 95%;
   border: 1px solid #e0e0e0;
-  padding-left: 15px;
   margin-top: 2rem;
   margin-left: 1rem;
   margin-bottom: 10px;
@@ -476,4 +425,4 @@ span {
 .end p a:hover {
   color: #795c4d;
   transition: 0.5s;
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=productdetail.css.map */
