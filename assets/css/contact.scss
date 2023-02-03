@@ -1,46 +1,96 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body{
-    background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-    justify-content: space-between;
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    padding: 0px 17px ; 
-  }
-
- .container img {
- height: 40px;
-  }
-
-  span {
-    color: white;
-  }
-  
-.container {
-    z-index: 1;
-    padding: 0.5rem 5rem;
-    position: fixed;
-    background-color: black;
-    display: flex;
-    margin: auto;
-    max-width: 100%;
-    justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
 }
 
-.container .second {
+a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 17px;
+}
+
+.container img {
+  height: 40px;
+}
+
+span {
+  color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #1a1a1a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.container1 img{
+  height: 40px;
+}
+
+.container1 {
+  position: fixed;
+  padding: 0.5rem 5rem;
+  z-index: 9999;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.container1 .second {
   padding-top: 10px;
   padding-left: 16rem;
 }
+
+.container1 .nav a {
+  padding-top: 10px;
+}
+
+.container1 .nav a:hover {
+  color: #b57655;
+  transition: 1s;
+}
+
 
 .main{
     background: url(../images/img23.jpg) center top no-repeat fixed;

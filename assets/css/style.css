@@ -69,6 +69,7 @@ span {
 }
 
 .container1 {
+  position: fixed;
   padding: 0.5rem 5rem;
   z-index: 9999;
   background-color: black;
