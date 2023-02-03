@@ -1,43 +1,53 @@
-let mySlider = [
-    'assets/images/slider1.jpg',
-    'assets/images/slider2.jpg',
-    'assets/images/slider3.jpg'
-]
-let img=document.querySelector('#slider img');
-img.src=mySlider[0];
-
-let index=0;
-
-let next=document.querySelector('.next');
-
-next.addEventListener('click',function() {
-    index++;
-    
-     if(index>mySlider.length-1){
-            index=0;
-     }
-
-    img.src=mySlider[index];
+$(document).ready(function () {
+    $('.slider').slick({
+        dots: false,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        infinite: true,
+        speed: 700,
+        arrows: true,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: false,
+        autoplaySpeed: 2000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    })
+         
 })
 
-let prev=document.querySelector('.prev');
-
-prev.addEventListener('click',function() {
-    index--; 
-     if(index==-1){
-            index=mySlider.length-1;
-     }
-
-    img.src=mySlider[index];
-})
-
-function AutoPlay() {
-    index++;
-    
-    if(index>mySlider.length-1){
-           index=0;
-    }
-
-   img.src=mySlider[index];
-}
-
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }

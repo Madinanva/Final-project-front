@@ -221,9 +221,9 @@ span {
   background: #1a1a1a;
   padding: 10px 10px 23px 9px;
   border: 1px solid #ddd;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {

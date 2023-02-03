@@ -23,33 +23,74 @@ span {
   color: white;
 }
 
-.container {
-  padding: 0.5rem 5rem;
+.sidenav {
+  height: 100%;
+  width: 0;
   position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #1a1a1a;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.container1 img {
+  height: 40px;
+}
+
+.container1 {
+  padding: 0.5rem 5rem;
   z-index: 9999;
   background-color: black;
+  width: 100%;
   display: flex;
   margin: auto;
   max-width: 100%;
   justify-content: space-between;
 }
 
-.container .second {
+.container1 .second {
   padding-top: 10px;
   padding-left: 16rem;
 }
 
-.container .nav a {
+.container1 .nav a {
   padding-top: 10px;
 }
 
-.container .nav a:hover {
+.container1 .nav a:hover {
   color: #b57655;
   transition: 1s;
-}
-
-#slider img {
-  width: 100%;
 }
 
 .arrows, .prev, .next {
