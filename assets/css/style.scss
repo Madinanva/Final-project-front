@@ -98,7 +98,96 @@
     top: 50%;
     transform: translateY(-50);
   }
+  .cntnt{
+   position: absolute;
+   top: 25%;
+   left: 25%;
+   transform: translate(-25% -25%);
+  }
+
+  .cntnt h1{
+    color: white;
+    font: 90px "Frank Ruhl Libre", serif;
+    inline-size: 80%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .cntnt h6{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
+    padding-left: 16rem;
+  }
+
+  .cntnt a{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
+    padding-left: 16rem;
+  }
+
+  .cntnt a:hover{
+    text-decoration: underline;
+    transition: 3s;
+  }
+
+  .cntnt2 h1{
+    color: white;
+    font: 90px "Frank Ruhl Libre", serif;
+    inline-size: 70%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .cntnt2 h6{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
   
+  }
+
+.cntnt2{
+  padding-left: 8rem;
+  padding-top: 6rem;
+}
+
+  .cntnt2 a{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
+  }
+
+  .cntnt2 a:hover{
+    text-decoration: underline;
+    transition: 3s;
+  }
+
+  .cntnt3 h1{
+    color: white;
+    font: 90px "Frank Ruhl Libre", serif;
+    inline-size: 70%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .cntnt3 h6{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
+  
+  }
+
+.cntnt3{
+  padding-left: 5rem;
+  padding-top: 6rem;
+}
+
+  .cntnt3 a{
+    color: white;
+    font: 22px "Frank Ruhl Libre", serif;
+  }
+
+  .cntnt3 a:hover{
+    text-decoration: underline;
+    transition: 3s;
+  }
+
   .next {
     right: 20px;
   }
