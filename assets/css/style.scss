@@ -5,6 +5,10 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
   }
   
+  body{
+    overflow-x: hidden;
+  }
+
   a {
     text-decoration: none;
     color: white;
@@ -38,6 +42,7 @@
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
+    text-align: start;
     text-decoration: none;
     color: #1a1a1a;
     display: block;
@@ -45,7 +50,7 @@
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #b57655;
   }
   
   .sidenav .closebtn {
@@ -62,9 +67,9 @@
   }
 
   .container1 img{
-    height: 40px;
+    height: 30px;
   }
-
+  
   .container1 {
     position: fixed;
     padding: 0.5rem 5rem;
@@ -89,6 +94,20 @@
   .container1 .nav a:hover {
     color: #b57655;
     transition: 1s;
+  }
+  
+  .shop-cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .cartt{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0px 5px;
+    font-size: 10px;
   }
   
   .arrows, .prev, .next {
@@ -721,15 +740,10 @@
     padding-right: 1rem;
   }
   
-  .boxx a img:hover {
-    color: #795c4d;
-    transition: 0.5s;
-  }
   
   .subscribe {
     padding-top: 8rem;
     padding-left: 3rem;
-    display: flex;
   }
   
   #signup h2 {
@@ -748,6 +762,7 @@
     transition: 0.5s;
   }
   
+
   #social a i {
     color: #b57655;
     width: 30px;
@@ -756,6 +771,7 @@
     border-radius: 50%;
     text-align: center;
     padding-top: 6px;
+   
   }
   
   #flogo img {
@@ -763,8 +779,6 @@
   }
   
   #signup {
-    width: 30%;
-    padding-left: 6rem;
     text-align: center;
   }
   
@@ -781,8 +795,7 @@
   }
   
   #social {
-    width: 40%;
-    padding-left: 12rem;
+   display: flex;
   }
   
   #signup button {

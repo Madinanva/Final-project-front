@@ -1,8 +1,13 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
+}
+
+body {
+  overflow-x: hidden;
 }
 
 a {
@@ -15,12 +20,60 @@ a {
   padding: 0px 17px;
 }
 
-.container img {
+span {
+  color: white;
+}
+
+.container1 img {
   height: 40px;
+}
+
+.container1 {
+  position: fixed;
+  padding: 0.5rem 5rem;
+  z-index: 9999;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.container1 .second {
+  padding-top: 10px;
+  padding-left: 16rem;
+}
+
+.container1 .nav a {
+  padding-top: 10px;
+}
+
+.container1 .nav a:hover {
+  color: #b57655;
+  transition: 1s;
+}
+
+.sidebar-content {
+  display: none;
 }
 
 span {
   color: white;
+}
+
+.shop-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cartt {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 10px;
 }
 
 .sidenav {
@@ -64,12 +117,15 @@ span {
     font-size: 18px;
   }
 }
-.container1 img {
-  height: 40px;
+.bg-brown {
+  background-color: burlywood;
+}
+
+.shop-top-bar {
+  background-color: #F2F2F2;
 }
 
 .container1 {
-  position: fixed;
   padding: 0.5rem 5rem;
   z-index: 9999;
   background-color: black;
@@ -102,6 +158,107 @@ span {
   text-align: center;
   position: relative;
   margin: 0 0 80px;
+}
+
+.one {
+  display: none;
+}
+
+.ps-1 {
+  padding-right: 0.2rem;
+}
+
+.list .box .top {
+  position: relative;
+}
+
+.list .box .top i {
+  color: #1a1a1a;
+  top: 15%;
+  left: 85%;
+  position: absolute;
+  font-size: 14px;
+  opacity: 0;
+}
+
+.list .box .top img {
+  width: 100%;
+  display: block;
+}
+
+.list .box .top:hover i {
+  opacity: 1;
+  color: #795c4d;
+}
+
+.list .box .bottom a {
+  color: #1a1a1a;
+  font: 21px "Frank Ruhl Libre", serif;
+}
+
+.list .box .bottom a:hover {
+  color: #cf7e56;
+}
+
+.list .box .price {
+  padding-left: 15px;
+  display: flex;
+}
+
+.accordion {
+  color: #795c4d;
+  cursor: pointer;
+  background-color: white;
+  padding: 18px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  color: #1a1a1a;
+  transition: 1.5s;
+}
+
+.accordion:after {
+  content: "+";
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "−";
+}
+
+.panel {
+  color: #795c4d;
+  font-size: 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#oldprice {
+  color: #aaa;
+  font: 12px Poppins, sans-serif;
+  padding-left: 7px;
+  padding-top: 6px;
+}
+
+.btm a {
+  text-align: center;
+  display: block;
+  color: #795c4d;
+  font: 22px "Frank Ruhl Libre", serif;
+  text-decoration: underline;
+}
+
+.btm a:hover {
+  color: #1a1a1a;
+  transition: 1s;
 }
 
 .main::before {

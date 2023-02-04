@@ -94,6 +94,20 @@ span {
   transition: 1s;
 }
 
+.shop-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cartt {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+
 .main {
   background: url(../images/img23.jpg) center top no-repeat fixed;
   padding: 110px 0 80px;
@@ -192,6 +206,7 @@ span {
   padding-left: 3px;
   display: flex;
   font-weight: bold;
+  width: 120%;
 }
 
 #oldprice {
@@ -236,14 +251,13 @@ span {
 #right p {
   color: #1a1a1a;
   font: 17px Poppins, sans-serif;
-  padding-top: 2rem;
+  padding-top: 0.9rem;
   width: 130%;
 }
 
 #stock p {
   color: #4f8a10;
   font: 17px Poppins, sans-serif;
-  padding-top: 1rem;
 }
 
 span {

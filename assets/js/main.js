@@ -1,4 +1,19 @@
 $(document).ready(function () {
+    //Shop-Change-View
+    let one = document.querySelector('one')
+    let many = document.querySelector('many')
+    $('.one-one').click(function (e) {
+        e.preventDefault()
+        $('.one').css('display', 'block')
+        $('.many').css('display', 'none')
+    })
+    $('.many-many').click(function (e) {
+        e.preventDefault()
+        $('.many').css('display', 'block')
+        $('.one').css('display', 'none')
+    })
+
+
     $('.slider').slick({
         dots: false,
         prevArrow: $('.prev'),
@@ -41,13 +56,32 @@ $(document).ready(function () {
             }
         ]
     })
-         
+
 })
+
+//Accordion
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
+}
+
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-  }
+}
+
+

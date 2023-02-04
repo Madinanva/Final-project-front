@@ -4,6 +4,10 @@
     box-sizing: border-box;
     background-image: url(https://cdn.shopify.com/s/files/1/0569/6090/9499/files/Ceramic_12.png?v=1636528863);
   }
+
+  body{
+    overflow-x: hidden;
+  }
   
   a {
     text-decoration: none;
@@ -91,6 +95,19 @@
     transition: 1s;
   }
   
+  .shop-cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .cartt{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0px 5px;
+    font-size: 10px;
+  }
   
   .main{
       background: url(../images/img23.jpg) center top no-repeat fixed;
@@ -134,9 +151,6 @@
       transition: 1s;
   }
 
-.cart{
-    display: flex;
-}
 
 .col-lg-6 h4{
     font: 24px "Frank Ruhl Libre", serif;

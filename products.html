@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,38 +10,311 @@
   <link rel="stylesheet" href="assets/css/product.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-      <div class="container1">    
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6">
-                <img src="assets/images/logo.jpg" alt="logo">
+  <div class="container1">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-6">
+        <img src="assets/images/logo.jpg" alt="logo">
+      </div>
+    </div>
+    <div class="nav ">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
+        <a href="index.html" class="border-top border-bottom py-2">Home</a>
+        <a href="products.html" class="border-bottom py-2">Products</a>
+        <a href="catalog.html" class="border-bottom py-2">Catalog</a>
+        <a href="contact.html" class="border-bottom py-2">Contact</a>
+        <a href="about.html" class="border-bottom py-2">About</a>
+        <a href="services.html" class="border-bottom py-2">Services</a>
+        <a href="blog.html" class="border-bottom py-2">Blog</a>
+      </div>
+
+      <span style="font-size:18px;cursor:pointer;padding-top: 6px;padding-right: 5px;" onclick="openNav()">&#9776; Menu
+      </span>
+      <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="login.html"><i class="fa-regular fa-user"></i></a>
+      <a href="cart.html" class="position-relative"><i class="fa-solid fa-box-archive"></i> <span
+          class="cartt shop-cart">0</span></a>
+    </div>
+  </div>
+  <div class="main">
+    <h1>COLLECTION</h1>
+    <h5><a href="index.html">Home</a>/ Ceramic</h5>
+  </div>
+
+
+  <!--====== Shop-Area Start ======-->
+  <div class="shop-area py-5 ">
+    <div class="container">
+      <div class="row flex-row-reverse ">
+        <div class="col-lg-9 ">
+          <div class="shop-top-bar py-3 px-2">
+            <div class="select-showing-wrap d-sm-flex d-block justify-content-between">
+              <div class="pt-4 pt-sm-0">
+                <a href="" class="text-decoration-none many-many text-black fs-5 bg-white ps-1 ">
+                  <i class="fa-solid fa-border-all"></i>
+                </a>
+                <a href="" class="text-decoration-none one-one text-black fs-5 ms-4 bg-white px-1 ">
+                  <i class="fa-solid fa-bars"></i>
+                </a>
+              </div>
+              <div class="show-product-count pt-4 pt-sm-0 text-black">
+                <span class="select-title text-black">Paginate by</span>
+                <select name="paginateBy" id="paginateBy" class="bg-transparent text-black border-0 "
+                  style="outline: none; cursor: pointer;">
+                  <option value="3">
+                    3
+                  </option>
+                  <option value="4">
+                    4
+                  </option>
+                  <option value="5">
+                    5
+                  </option>
+                  <option value="6">
+                    6
+                  </option>
+                  <option value="7" selected="">
+                    7
+                  </option>
+                  <option value="8">
+                    8
+                  </option>
+                  <option value="9">
+                    9
+                  </option>
+                  <option value="10">
+                    10
+                  </option>
+                  <option value="11">
+                    11
+                  </option>
+                  <option value="12">
+                    12
+                  </option>
+                  <option value="13">
+                    13
+                  </option>
+                </select>
+              </div>
+              <div class="shop-select pt-4 pt-sm-0  text-black">
+                <label for="SortBy">Sort by :</label>
+                <select name="SortBy" id="SortBy" class="bg-transparent text-black  border-0 "
+                  style="outline: none; cursor: pointer;">
+                  <option value="manual" class="text-black bg-brown">Featured</option>
+                  <option value="best-selling" class="text-black">Best Selling</option>
+                  <option value="title-ascending" class="text-black">Alphabetically, A-Z</option>
+                  <option value="title-descending" class="text-black">Alphabetically, Z-A</option>
+                  <option value="price-ascending" class="text-black">Price, low to high</option>
+                  <option value="price-descending" class="text-black">Price, high to low</option>
+                </select>
+              </div>
             </div>
-        </div>
-            <div class="nav ">
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn "  onclick="closeNav()">&times;</a>
-                    <a href="index.html" class="border-top border-bottom py-2">Home</a>
-                    <a href="products.html" class="border-bottom py-2">Products</a>
-                    <a href="catalog.html" class="border-bottom py-2">Catalog</a>
-                    <a href="contact.html" class="border-bottom py-2">Contact</a>
-                    <a href="about.html" class="border-bottom py-2">About</a>
-                    <a href="services.html" class="border-bottom py-2">Services</a>
-                    <a href="blog.html" class="border-bottom py-2">Blog</a>
+          </div>
+          <div class="shop-bottom-area ">
+            <div class="many">
+              <div class="list row">
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img24.jpg" alt="">
                   </div>
-                  
-                  <span style="font-size:18px;cursor:pointer;padding-top: 6px;padding-right: 5px;" onclick="openNav()">&#9776; Menu </span>
-                <a href="search.html" ><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="login.html"><i class="fa-regular fa-user"></i></a>
-                <a href="cart.html"><i class="fa-solid fa-box-archive"></i></a>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Centuray ceramic</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img5.jpg" alt="">
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Clay pottery</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img6.jpg" alt="">
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Luxura ceramics</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img7.jpg" alt="">
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Mut pot</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img4.jpg" alt="">
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Luxura ceramics</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+                <div class="box col-lg-4 mt-4">
+                  <div class="top">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="assets/images/img27.jpg" alt="">
+                  </div>
+                  <div class="bottom">
+                    <h4>
+                      <a href="productdetail.html">Clay pottery</a>
+                    </h4>
+                  </div>
+                  <div class="price">
+                    <div id="newprice">
+                      Rs. 150.00
+                    </div>
+                    <del id="oldprice">
+                      Rs. 160.00
+                    </del>
+                  </div>
+                </div>
+              </div>
             </div>
-</div>
-              <div class="main">
-                <h1>COLLECTION</h1>
-               <h5><a href="index.html">Home</a>/ Ceramic</h5>
-             </div>
-             
-             <script src="assets/js/jquery.js"></script>
-             <script src="assets/js/product.js"></script>
-            </body>
-            </html>
+            <div class="one">
+              <div class="row ">
+                <div class="col-lg-12 col-12">
+                  <div class="  mt-4">
+                    <div class="row">
+                      <div class="col-lg-4 position-relative">
+                        <a href="productdetail.html">
+                          <img src="assets/images/img24.jpg" class="w-100" alt="">
+                        </a>
+                      </div>
+                      <div class="col-lg-8 d-flex align-items-center">
+                        <div>
+                          <h3 class=" d-block">
+                            <a href="productdetail.html"
+                              class="text-decoration-none text-black geometric ls-1 hover2 t-5 ">Jug ceramics
+                              product</a>
+                          </h3>
+                          <div class="shop-list-price-ratting ">
+                            <div class="ht-product-list-price ">
+                              <span class="discounted-price ">
+                                <span class="money text-black fs-4">Rs. 150.00</span>
+                              </span>
+                              <span class="price ps-2 ">
+                                <span class="money text-black text-decoration-line-through">Rs. 160.00</span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category">
+            <h2 class="py-3" style="border-bottom: 2px solid black;">Category</h2>
+            <button class="accordion">Stoneware ceramics</button>
+            <div class="panel">
+              <ul>
+                <li>Procelain ceramics</li>
+                <li>Earthernware ceramics</li>
+              </ul>
+            </div>
+            <button class="accordion">Artificial ceramics</button>
+            <div class="panel">
+              <ul>
+                <li>Popular ceramics</li>
+                <li>Mut pot</li>
+              </ul>
+            </div>
+          </div>
+          <div class="price">
+            <h2 class="py-3 mb-3" style="border-bottom: 2px solid black;">Price</h2>
+            <span class="text-black ">The highest price is Rs. 150.00</span>
+            <div class="from-to">
+              <div class="from">
+                <span class="text-black">From ₹</span>
+                <input type="text" class="border py-2 d-block w-100" style="outline: none;" name="" id="">
+              </div>
+              <div class="to mt-2 mb-4">
+                <span class="text-black">To ₹</span>
+                <input type="text" class="border py-2 d-block w-100" style="outline: none;" name="" id="">
+              </div>
+              <a href="" class="text-decoration-none bg-black text-white  px-3 py-2">Clear</a>
+              <a href="" class="text-decoration-none bg-black text-white px-3 py-2 ms-2">Apply</a>
+            </div>
+            <button class="text-white bg-black d-block mt-5 py-2 w-100">Clear All</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--====== Shop-Area End ======-->
+
+
+
+
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

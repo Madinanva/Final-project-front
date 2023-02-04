@@ -91,6 +91,20 @@ span {
   transition: 1s;
 }
 
+.shop-cart{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cartt{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 10px;
+}
+
 .main{
     background: url(../images/img23.jpg) center top no-repeat fixed;
     padding: 110px 0 80px;
