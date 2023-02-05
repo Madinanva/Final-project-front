@@ -15,9 +15,6 @@ a {
   padding: 0px 17px;
 }
 
-.container img {
-  height: 40px;
-}
 
 span {
   color: white;
@@ -357,29 +354,23 @@ span {
     transition: 1s;
   }
 
-  .subscribe{
-    padding-top: 8rem;
-    padding-left: 3rem;
-    display: flex;
-  }
-  
-  #signup h2{
+  #signup h2 {
     color: #1a1a1a;
     font: 34px "Frank Ruhl Libre", serif;
   }
   
-  #signup h2 a{
+  #signup h2 a {
     color: #795c4d;
     font: 34px "Frank Ruhl Libre", serif;
     font-style: italic;
   }
   
-  #signup h2 a:hover{
+  #signup h2 a:hover {
     color: #1a1a1a;
     transition: 0.5s;
   }
   
-  #social a i{
+  #social a i {
     color: #b57655;
     width: 30px;
     height: 30px;
@@ -389,17 +380,15 @@ span {
     padding-top: 6px;
   }
   
-  #flogo img{
+  #flogo img {
     width: 50%;
   }
   
-  #signup{
-    width: 30%;
-    padding-left: 6rem;
+  #signup {
     text-align: center;
   }
   
-  #signup input{
+  #signup input {
     height: 40px;
     display: block;
     margin: 0;
@@ -411,13 +400,9 @@ span {
     margin-bottom: 10px;
   }
   
-  #social{
-   width: 40%;
-   padding-left: 12rem;
-  }
   
-  #signup button{
-    color: #ffff;
+  #signup button {
+    color: white;
     background-color: #1a1a1a;
     margin-right: auto;
     height: 40px;
@@ -428,105 +413,88 @@ span {
     border: none;
   }
   
-  #signup button:hover{
+  #signup button:hover {
     background-color: #795c4d;
     transition: 0.5s;
   }
   
-  .footer{
+  .footer {
     display: flex;
-    padding-left: 1rem;
     padding-top: 5rem;
   }
   
-  #help h5{
+  #help h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
-    padding-left: 1rem;
     padding-bottom: 1rem;
   }
   
-  #help a{
+  #help a {
     color: #1a1a1a;
     font: 17px Poppins, sans-serif;
     display: block;
     padding-bottom: 8px;
   }
   
-  
-  #help a:hover{
+  #help a:hover {
     color: #795c4d;
     transition: 0.5s;
   }
   
-  #information{
-    padding-left: 8rem;
-  }
   
-  #information h5{
+  
+  #information h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
-    padding-left: 1rem;
     padding-bottom: 1rem;
   }
   
-  #information a{
+  #information a {
     color: #1a1a1a;
     font: 17px Poppins, sans-serif;
     display: block;
     padding-bottom: 8px;
   }
   
-  #information a:hover{
+  #information a:hover {
     color: #795c4d;
     transition: 0.5s;
   }
   
-  #contact h5{
+  #contact h5 {
     color: #1a1a1a;
     font: 22px "Frank Ruhl Libre", serif;
     font-weight: 600;
-    padding-left: 1rem;
     padding-bottom: 1rem;
   }
   
-  #contact{
-    padding-left: 9rem;
-  }
   
-  #contact h6{
+  #contact h6 {
     color: #1a1a1a;
-    padding-left: 1rem;
   }
   
-  #contact p{
+  #contact p {
     color: #1a1a1a;
-    padding-left: 1rem;
-    width: 60%;
   }
   
-  #footerlogo img{
-    width: 60%;
+  .end {
+    text-align: center;
+    padding-top: 5rem;
   }
   
-  .end{
-   text-align: center;
-   padding-top: 5rem;
-  }
-  
-  .end p{
-   color: #1a1a1a;
-   font: 16px Poppins, sans-serif;
-  }
-  
-  .end p a{
+  .end p {
     color: #1a1a1a;
     font: 16px Poppins, sans-serif;
   }
   
-  .end p a:hover{
+  .end p a {
+    color: #1a1a1a;
+    font: 16px Poppins, sans-serif;
+  }
+
+  .end p a:hover {
     color: #795c4d;
     transition: 0.5s;
   }

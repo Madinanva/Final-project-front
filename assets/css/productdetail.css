@@ -270,7 +270,8 @@ span {
   display: flex;
 }
 
-.minus, .plus {
+.minus,
+.plus {
   color: white;
   width: 30px;
   height: 20px;
@@ -311,12 +312,6 @@ input {
   transition: 1s;
 }
 
-.subscribe {
-  padding-top: 8rem;
-  padding-left: 2rem;
-  display: flex;
-}
-
 #signup h2 {
   color: #1a1a1a;
   font: 34px "Frank Ruhl Libre", serif;
@@ -348,8 +343,6 @@ input {
 }
 
 #signup {
-  width: 30%;
-  padding-left: 6rem;
   text-align: center;
 }
 
@@ -359,14 +352,10 @@ input {
   margin: 0;
   width: 95%;
   border: 1px solid #e0e0e0;
+  padding-left: 15px;
   margin-top: 2rem;
   margin-left: 1rem;
   margin-bottom: 10px;
-}
-
-#social {
-  width: 40%;
-  padding-left: 12rem;
 }
 
 #signup button {
@@ -388,7 +377,6 @@ input {
 
 .footer {
   display: flex;
-  padding-left: 1rem;
   padding-top: 5rem;
 }
 
@@ -396,7 +384,6 @@ input {
   color: #1a1a1a;
   font: 22px "Frank Ruhl Libre", serif;
   font-weight: 600;
-  padding-left: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -412,15 +399,10 @@ input {
   transition: 0.5s;
 }
 
-#information {
-  padding-left: 8rem;
-}
-
 #information h5 {
   color: #1a1a1a;
   font: 22px "Frank Ruhl Libre", serif;
   font-weight: 600;
-  padding-left: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -440,27 +422,15 @@ input {
   color: #1a1a1a;
   font: 22px "Frank Ruhl Libre", serif;
   font-weight: 600;
-  padding-left: 1rem;
   padding-bottom: 1rem;
-}
-
-#contact {
-  padding-left: 9rem;
 }
 
 #contact h6 {
   color: #1a1a1a;
-  padding-left: 1rem;
 }
 
 #contact p {
   color: #1a1a1a;
-  padding-left: 1rem;
-  width: 60%;
-}
-
-#footerlogo img {
-  width: 60%;
 }
 
 .end {
