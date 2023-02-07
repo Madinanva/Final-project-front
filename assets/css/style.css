@@ -810,8 +810,11 @@ span {
   transition: 0.5s;
 }
 
+.signup {
+  padding: 100px 0 0 0;
+}
+
 .footer {
-  display: flex;
   padding-top: 5rem;
 }
 
@@ -866,6 +869,7 @@ span {
 
 #contact p {
   color: #1a1a1a;
+  text-align: left;
 }
 
 .end {

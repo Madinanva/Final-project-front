@@ -346,6 +346,10 @@ span {
   transition: 0.5s;
 }
 
+.signup {
+  padding: 100px 0 0 0;
+}
+
 #information h5 {
   color: #1a1a1a;
   font: 22px "Frank Ruhl Libre", serif;
