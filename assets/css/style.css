@@ -19,10 +19,6 @@ a {
   padding: 0px 17px;
 }
 
-.container1 img {
-  height: 40px;
-}
-
 span {
   color: white;
 }
@@ -428,7 +424,6 @@ span {
   padding-top: 3rem;
   color: white;
   font: 22px "Frank Ruhl Libre", serif;
-  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
 
