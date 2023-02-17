@@ -56,12 +56,10 @@ span {
   .sidenav {
     padding-top: 15px;
   }
-
   .sidenav a {
     font-size: 18px;
   }
 }
-
 .container1 img {
   height: 40px;
 }
@@ -114,7 +112,6 @@ span {
   text-align: center;
   position: relative;
   margin: 0 0 80px;
-
 }
 
 .main::before {
@@ -126,7 +123,7 @@ span {
   left: 0;
   top: 0;
   background: #000000;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .main h1 {
@@ -175,6 +172,7 @@ span {
 
 #left {
   padding-top: 5px;
+  width:50%;
 }
 
 #left p {
@@ -186,26 +184,34 @@ span {
   padding: 0;
 }
 
-#shopbtn a button {
+#shopbtn a {
   color: white;
   background-color: #1a1a1a;
   font: 17px "Frank Ruhl Libre", serif;
   height: 50px;
   width: 150%;
   border: none;
+  outline:none;
   margin-left: -1rem;
 }
 
-#shopbtn a button:hover {
-  background-color: #b57655;
-  transition: 1s;
+
+a.addbasket:hover {
+    background-color: #b57655 !important;
+    transition: 1s;
 }
 
+a.buy:hover{
+    background-color: #b57655 !important;
+    transition: 1s;
+}
+
+
 .price {
-  padding-left: 3px;
-  display: flex;
-  font-weight: bold;
-  width: 120%;
+    padding-left: 3px;
+    display: flex;
+    font-weight: bold;
+    width: 120%;
 }
 
 #oldprice {
@@ -216,7 +222,7 @@ span {
 }
 
 #right {
-  padding-left: 1.5rem;
+  width:50%;
 }
 
 #right label {
@@ -250,7 +256,7 @@ span {
 #right p {
   color: #1a1a1a;
   font: 17px Poppins, sans-serif;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   width: 130%;
 }
 
@@ -288,7 +294,6 @@ input {
   text-align: center;
   font-size: 16px;
   border: 1px solid #ddd;
-
   display: inline-block;
   vertical-align: middle;
 }
@@ -297,7 +302,7 @@ input {
   padding: 0;
 }
 
-#shopbtn2 a button {
+#shopbtn2 a  {
   color: white;
   background-color: #1a1a1a;
   font: 17px "Frank Ruhl Libre", serif;
@@ -307,7 +312,7 @@ input {
   margin-top: 1.625rem;
 }
 
-#shopbtn2 a button:hover {
+#shopbtn2 a:hover {
   background-color: #b57655;
   transition: 1s;
 }
@@ -338,7 +343,7 @@ input {
   padding-top: 6px;
 }
 
-.signup{
+.signup {
   padding: 100px 0 0 0;
 }
 
@@ -361,7 +366,6 @@ input {
   margin-left: 1rem;
   margin-bottom: 10px;
 }
-
 
 #signup button {
   color: white;
@@ -404,8 +408,6 @@ input {
   transition: 0.5s;
 }
 
-
-
 #information h5 {
   color: #1a1a1a;
   font: 22px "Frank Ruhl Libre", serif;
@@ -431,7 +433,6 @@ input {
   font-weight: 600;
   padding-bottom: 1rem;
 }
-
 
 #contact h6 {
   color: #1a1a1a;
@@ -459,4 +460,4 @@ input {
 .end p a:hover {
   color: #795c4d;
   transition: 0.5s;
-}
+}/*# sourceMappingURL=productdetail.css.map */

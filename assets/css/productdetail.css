@@ -172,6 +172,7 @@ span {
 
 #left {
   padding-top: 5px;
+  width: 50%;
 }
 
 #left p {
@@ -183,18 +184,24 @@ span {
   padding: 0;
 }
 
-#shopbtn a button {
+#shopbtn a {
   color: white;
   background-color: #1a1a1a;
   font: 17px "Frank Ruhl Libre", serif;
   height: 50px;
   width: 150%;
   border: none;
+  outline: none;
   margin-left: -1rem;
 }
 
-#shopbtn a button:hover {
-  background-color: #b57655;
+a.addbasket:hover {
+  background-color: #b57655 !important;
+  transition: 1s;
+}
+
+a.buy:hover {
+  background-color: #b57655 !important;
   transition: 1s;
 }
 
@@ -213,7 +220,7 @@ span {
 }
 
 #right {
-  padding-left: 1.5rem;
+  width: 50%;
 }
 
 #right label {
@@ -247,7 +254,7 @@ span {
 #right p {
   color: #1a1a1a;
   font: 17px Poppins, sans-serif;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   width: 130%;
 }
 
@@ -293,7 +300,7 @@ input {
   padding: 0;
 }
 
-#shopbtn2 a button {
+#shopbtn2 a {
   color: white;
   background-color: #1a1a1a;
   font: 17px "Frank Ruhl Libre", serif;
@@ -303,7 +310,7 @@ input {
   margin-top: 1.625rem;
 }
 
-#shopbtn2 a button:hover {
+#shopbtn2 a:hover {
   background-color: #b57655;
   transition: 1s;
 }
@@ -451,4 +458,4 @@ input {
 .end p a:hover {
   color: #795c4d;
   transition: 0.5s;
-}/*# sourceMappingURL=productdetail.css.map */
+} /*# sourceMappingURL=productdetail.css.map */
